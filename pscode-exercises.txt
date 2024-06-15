@@ -1,0 +1,96 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+function main():
+    
+    #Step 1: Read a number from the user
+
+        number = readNumber()
+    
+    #Step 2: Check if the number is even or Odd
+
+        if number % 2 == 0:
+            print "The number is even."
+        else:
+            print "The number is odd."
+
+# Function to read a number from the user
+function readNumber():
+    return input ("Enter a number: ")
+
+#Call the main function to execute the program
+main()
+        
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+function main()
+    
+    #Step a: Read in 5 seperate numbers
+
+        numbers = []
+        for i from 1 to 5:
+            number = readNumber()
+            add number to numbers
+
+    #Step b: Calculate the average of the five numbers
+        
+        sum = 0
+        for each number in numbers:
+            sum = sum + number
+        average = sum / 5
+
+    #Step c: Find the minimum and maximum of the entered numbers
+
+        minimum = numbers[0]
+        maximum = numbers[0]
+        for each number in numbers:
+            if number < minimum:
+                minimum = number
+            if number > maximum:
+                maximum = number
+
+    #Step d: Write out results found from steps b and c with a message describing what they are
+
+        print "The average of the five numbers is: " + average
+        print "The minimum of the five numbers is: " + minimum
+        print "The maximum of the five numbers is: " + maximum
+
+# Function to read a number from the user
+function readNumber():
+    return input("Enter a number: ")
+
+#Call the main function to execute the program
+main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- END --
