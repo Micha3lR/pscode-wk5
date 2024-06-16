@@ -10,9 +10,10 @@ add the 2 number together
 print on the screen the sum of those 2 numbers
 
 
-// Exercise 2: Check if a Number is Even or Odd
+// Exercise 2: Check if a Number is Even or odd
 
-function main():
+
+function:
     
     #Step 1: Read a number from the user
 
@@ -25,12 +26,7 @@ function main():
         else:
             print "The number is odd."
 
-# Function to read a number from the user
-function readNumber():
-    return input ("Enter a number: ")
-
-#Call the main function to execute the program
-main()
+end function
         
 
 // Exercise 3: 
@@ -41,7 +37,7 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-function main()
+function:
     
     #Step a: Read in 5 seperate numbers
 
@@ -73,24 +69,7 @@ function main()
         print "The minimum of the five numbers is: " + minimum
         print "The maximum of the five numbers is: " + maximum
 
-# Function to read a number from the user
-function readNumber():
-    return input("Enter a number: ")
-
-#Call the main function to execute the program
-main()
-
-
-
-
-
-
-
-
-
-
-
-
+end function
 
 
 -- END --
