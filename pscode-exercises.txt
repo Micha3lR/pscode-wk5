@@ -18,7 +18,7 @@ function main():
 
         number = readNumber()
     
-    #Step 2: Check if the number is even or Odd
+    #Step 2: Check if the number is even or odd
 
         if number % 2 == 0:
             print "The number is even."
